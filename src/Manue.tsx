@@ -1,8 +1,6 @@
 import type { ReactNode } from "react";
 import React, { createContext, useContext, useReducer } from "react";
 
-// export const LANGUAGE_CONTEXT = createContext(null);
-// export const USER_CONTEXT = createContext(null);
 const defaultState = { opened: false };
 export type Action = "OPEN_MANUE" | "CLOSE_MENUE";
 export type Dispatch = (action: Action) => void;
