@@ -19,7 +19,6 @@ const options = [
   "Show some love to MUI",
   "Show all notification content",
   "Hide sensitive notification content",
-  "Hide all notification content",
 ];
 
 function App() {
